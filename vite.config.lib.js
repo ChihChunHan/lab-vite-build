@@ -9,6 +9,7 @@ export default defineConfig({
       entry: 'src/library/myLibrary.js',
       name: 'myLibrary',
       fileName: "myLibrary"
-    }
+    },
+    outDir: 'dist/lib',
   }
 })
