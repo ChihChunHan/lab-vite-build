@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "yarn build.web && yarn build.lib",
+    "build.web": "vite build --config vite.config.web.js",
+    "build.lib": "vite build --config vite.config.lib.js",
     "preview": "vite preview"
   },
   "dependencies": {
