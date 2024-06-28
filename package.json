@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --config vite.config.web.js",
     "build": "yarn build.web && yarn build.lib",
     "build.web": "vite build --config vite.config.web.js",
     "build.lib": "vite build --config vite.config.lib.js",
